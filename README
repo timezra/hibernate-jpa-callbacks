@@ -1,0 +1,9 @@
+This project provides code samples to clarify this tutorial: http://timezra.blogspot.com/2011/10/jpa-callbacks-with-hibernate.html
+
+It is a multi-module Maven project. The code can be compiled and the tests run using standard Maven commands, e.g.,
+    $> mvn clean package
+
+The timezra.hibernate.jpa.entity-manager-callbacks project contains sample code for using the Hibernate EntityManager, which automatically ties JPA annotations to Hibernate lifecycle events.
+
+The timezra.hibernate.jpa.event-listener-callbacks project contains sample code for manually configuring the Hibernate SessionFactory to recognize JPA annotations and to bind the annotated methods to Hibernate lifecycle events.
+
