@@ -11,7 +11,7 @@
 		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 	<modules>
-	    <module>timezra.hibernate.callbacks</module>
-	    <module>timezra.jpa.callbacks</module>
+	    <module>timezra.hibernate.jpa.event-listener-callbacks</module>
+	    <module>timezra.hibernate.jpa.entity-manager-callbacks</module>
 	</modules>
 </project>
