@@ -1,4 +1,4 @@
-package timezra.hibernate.callbacks.domain;
+package timezra.hibernate.jpa.event_listener_callbacks.domain;
 
 import java.io.Serializable;
 import java.util.Calendar;

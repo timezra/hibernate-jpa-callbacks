@@ -1,4 +1,4 @@
-package timezra.hibernate.callbacks.dao;
+package timezra.hibernate.jpa.event_listener_callbacks.dao;
 
 import java.util.Iterator;
 

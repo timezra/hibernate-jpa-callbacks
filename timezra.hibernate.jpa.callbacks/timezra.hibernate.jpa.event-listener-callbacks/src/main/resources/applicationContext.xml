@@ -17,7 +17,7 @@
         <property name="dataSource" ref="dataSource" />
         <property name="packagesToScan">
             <list>
-                <value>timezra.hibernate.callbacks.domain</value>
+                <value>timezra.hibernate.jpa.event_listener_callbacks.domain</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -51,7 +51,7 @@
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
 
-    <context:component-scan base-package="timezra.hibernate.callbacks" />
+    <context:component-scan base-package="timezra.hibernate.jpa.event_listener_callbacks" />
     <context:annotation-config />
     <tx:annotation-driven />
 </beans>

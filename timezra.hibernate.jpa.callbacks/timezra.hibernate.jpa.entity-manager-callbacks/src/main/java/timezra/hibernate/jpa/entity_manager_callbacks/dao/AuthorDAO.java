@@ -1,4 +1,4 @@
-package timezra.jpa.callbacks.dao;
+package timezra.hibernate.jpa.entity_manager_callbacks.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -7,7 +7,7 @@ import javax.persistence.criteria.Root;
 
 import org.springframework.stereotype.Repository;
 
-import timezra.jpa.callbacks.domain.Author;
+import timezra.hibernate.jpa.entity_manager_callbacks.domain.Author;
 
 @Repository
 public class AuthorDAO {

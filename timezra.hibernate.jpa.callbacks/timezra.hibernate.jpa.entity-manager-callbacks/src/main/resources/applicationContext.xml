@@ -30,7 +30,7 @@
     <bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
     <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 
-    <context:component-scan base-package="timezra.jpa.callbacks" />
+    <context:component-scan base-package="timezra.hibernate.jpa.entity_manager_callbacks" />
     <context:annotation-config />
     <tx:annotation-driven />
 </beans>

@@ -1,4 +1,4 @@
-package timezra.jpa.callbacks.service;
+package timezra.hibernate.jpa.event_listener_callbacks.service;
 
 import javax.annotation.Resource;
 
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import timezra.jpa.callbacks.dao.AuthorDAO;
-import timezra.jpa.callbacks.domain.Author;
+import timezra.hibernate.jpa.event_listener_callbacks.dao.AuthorDAO;
+import timezra.hibernate.jpa.event_listener_callbacks.domain.Author;
 
 @Service
 public class AuthorService {
@@ -21,8 +21,8 @@ public class AuthorService {
     }
 
     @Transactional
-    public Author update(final Author a) {
-        return authorDAO.update(a);
+    public void update(final Author a) {
+        authorDAO.update(a);
     }
 
     @Transactional

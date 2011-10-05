@@ -1,4 +1,4 @@
-package timezra.hibernate.callbacks.dao;
+package timezra.hibernate.jpa.event_listener_callbacks.dao;
 
 import javax.annotation.Resource;
 
@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import timezra.hibernate.callbacks.domain.Author;
+import timezra.hibernate.jpa.event_listener_callbacks.domain.Author;
 
 @Repository
 public class AuthorDAO {
